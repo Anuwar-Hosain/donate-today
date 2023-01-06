@@ -1,3 +1,53 @@
-body {
-  background-color: red;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --main_font: "Inter", sans-serif;
+  --paragraph_font: "Poppins", sans-serif;
+  --common_color: #ff5959;
 }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header section styles start */
+.main-header {
+  background-image: url(../images/donation0.jpg),
+    linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.header-all {
+  padding: 170px 300px;
+  text-align: center;
+}
+.main-header-head {
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-family: var(--main_font);
+}
+.main-header-description {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+  margin-bottom: 30px;
+}
+.primary-btn {
+  height: 56px;
+  background: #ff5959;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: var(--main_font);
+  color: #ffffff;
+  padding: 16px 20px;
+}
+/* header section styles end */
