@@ -193,3 +193,47 @@
   border-radius: 5px;
 }
 /* Gallery details section end */
+/* Updates section start */
+.Updates {
+  text-align: center;
+  margin-bottom: 130px;
+}
+.updates-title {
+  font-weight: 700;
+  font-size: 45px;
+  font-family: var(--main_font);
+  color: #121212;
+  margin-bottom: 20px;
+}
+.updates-description {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+  color: #707070;
+  margin-bottom: 50px;
+}
+.email {
+  width: 809px;
+  height: 200px;
+  background: #fff4d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.email input {
+  width: 275px;
+  height: 48px;
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  padding: 14px 17px;
+  border: none;
+}
+.email-btn {
+  width: 157px;
+  height: 48px;
+  background: #ff5959;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+}
+/* Updates section end */
