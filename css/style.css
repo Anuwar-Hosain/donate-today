@@ -52,6 +52,9 @@
 }
 /* header section styles end */
 /* donate-today section styles start */
+.donate-today {
+  margin-bottom: 130px;
+}
 .donate-today-all {
   margin-top: 130px;
   text-align: center;
@@ -70,4 +73,39 @@
   font-family: var(--paragraph_font);
   margin-bottom: 50px;
 }
-/* donate-today section styles end */
+.all-taka {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.taka {
+  width: 135px;
+  height: 123px;
+  background: #fafafa;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--main_font);
+}
+.taka-madify {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+}
+.donate-input {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+  width: 765px;
+  border: none;
+  border-bottom: 1px solid #dadada;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* donate-today section styles end */ ;
