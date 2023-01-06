@@ -51,3 +51,23 @@
   padding: 16px 20px;
 }
 /* header section styles end */
+/* donate-today section styles start */
+.donate-today-all {
+  margin-top: 130px;
+  text-align: center;
+}
+.donate-today-heading {
+  font-family: var(--main_font);
+  font-weight: 700;
+  font-size: 45px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.donate-today-description {
+  color: #707070;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+  margin-bottom: 50px;
+}
+/* donate-today section styles end */
