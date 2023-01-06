@@ -157,3 +157,39 @@
   font-family: var(--paragraph_font);
 }
 /* donate-plan section end */
+/* Gallery details section start */
+.gallery-01 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+.gallery-01 img {
+  width: 550px;
+  border-radius: 5px;
+}
+.details-title {
+  font-weight: 700;
+  font-size: 45px;
+  font-family: var(--main_font);
+  color: #121212;
+  margin-bottom: 20px;
+}
+.details-description {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+  color: #707070;
+  margin-bottom: 20px;
+}
+.gallery-02 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 130px;
+}
+.gallery-02 img {
+  width: 550px;
+  border-radius: 5px;
+}
+/* Gallery details section end */
