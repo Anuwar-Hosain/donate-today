@@ -49,6 +49,7 @@
   font-family: var(--main_font);
   color: #ffffff;
   padding: 16px 20px;
+  cursor: pointer;
 }
 /* header section styles end */
 /* donate-today section styles start */
